@@ -4,9 +4,9 @@ import java.util.Date;
 
 public class Order {
 
-	private Integer codOrder;
+	private int codOrder;
 	private Date date;
-	private Float finalPrice;
+	private float finalPrice;
 	private String clientName;
 	private String adress;
 
