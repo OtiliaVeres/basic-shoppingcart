@@ -2,16 +2,16 @@ package model;
 
 public class Product {
 
-	private int codProduct;
+	private int productCod;
 	private String name;
 	private int stock;
 
-	public int getCodProduct() {
-		return codProduct;
+	public int getproductCod() {
+		return productCod;
 	}
 
-	public void setCodProduct(int codProduct) {
-		this.codProduct = codProduct;
+	public void setproductCod(int productCod) {
+		this.productCod = productCod;
 	}
 
 	public String getName() {

@@ -4,18 +4,18 @@ import java.util.Date;
 
 public class Order {
 
-	private int codOrder;
+	private int orderCod;
 	private Date date;
 	private float finalPrice;
 	private String clientName;
-	private String adress;
+	private String address;
 
-	public int getCodOrder() {
-		return codOrder;
+	public int getorderCod() {
+		return orderCod;
 	}
 
-	public void setCodOrder(int codOrder) {
-		this.codOrder = codOrder;
+	public void setorderCod(int orderCod) {
+		this.orderCod = orderCod;
 	}
 
 	public Date getDate() {
@@ -42,12 +42,12 @@ public class Order {
 		this.clientName = clientName;
 	}
 
-	public String getAdress() {
-		return adress;
+	public String getaddress() {
+		return address;
 	}
 
-	public void setAdress(String adress) {
-		this.adress = adress;
+	public void setaddress(String address) {
+		this.address = address;
 	}
 
 }
