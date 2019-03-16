@@ -2,9 +2,9 @@ package model;
 
 public class Product {
 
-	Integer codProduct;
-	String name;
-	Integer stock;
+	private Integer codProduct;
+	private String name;
+	private Integer stock;
 
 	public Integer getCodProduct() {
 		return codProduct;

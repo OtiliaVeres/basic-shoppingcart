@@ -4,11 +4,11 @@ import java.util.Date;
 
 public class Order {
 
-	Integer codOrder;
-	Date date;
-	Float finalPrice;
-	String clientName;
-	String adress;
+	private Integer codOrder;
+	private Date date;
+	private Float finalPrice;
+	private String clientName;
+	private String adress;
 
 	public Integer getCodOrder() {
 		return codOrder;
