@@ -10,11 +10,11 @@ public class Order {
 	private String clientName;
 	private String adress;
 
-	public Integer getCodOrder() {
+	public int getCodOrder() {
 		return codOrder;
 	}
 
-	public void setCodOrder(Integer codOrder) {
+	public void setCodOrder(int codOrder) {
 		this.codOrder = codOrder;
 	}
 
@@ -26,11 +26,11 @@ public class Order {
 		this.date = date;
 	}
 
-	public Float getFinalPrice() {
+	public float getFinalPrice() {
 		return finalPrice;
 	}
 
-	public void setFinalPrice(Float finalPrice) {
+	public void setFinalPrice(float finalPrice) {
 		this.finalPrice = finalPrice;
 	}
 

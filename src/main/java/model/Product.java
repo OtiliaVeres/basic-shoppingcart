@@ -6,11 +6,11 @@ public class Product {
 	private String name;
 	private int stock;
 
-	public Integer getCodProduct() {
+	public int getCodProduct() {
 		return codProduct;
 	}
 
-	public void setCodProduct(Integer codProduct) {
+	public void setCodProduct(int codProduct) {
 		this.codProduct = codProduct;
 	}
 
@@ -22,11 +22,11 @@ public class Product {
 		this.name = name;
 	}
 
-	public Integer getStock() {
+	public int getStock() {
 		return stock;
 	}
 
-	public void setStock(Integer stock) {
+	public void setStock(int stock) {
 		this.stock = stock;
 	}
 
