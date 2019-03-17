@@ -1,11 +1,14 @@
 package basicshoppingcart.service;
 
+import basicshoppingcart.model.Cart;
 import basicshoppingcart.model.Order;
 
 public class BasicShoppingCartOrderService {
 
-	public void CreateOrder(Order pOrder) {
+	public Order CreateOrder(Cart pCart) {
 	
+		return null;
+		
 	}
 	
 }
