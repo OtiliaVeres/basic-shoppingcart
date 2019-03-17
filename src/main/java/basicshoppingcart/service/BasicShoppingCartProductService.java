@@ -4,7 +4,7 @@ import java.util.List;
 
 import basicshoppingcart.model.Product;
 
-public class BasicShoppingCartService {
+public class BasicShoppingCartProductService {
 
 	public Product addProduct(Product pProdcut) {
 
