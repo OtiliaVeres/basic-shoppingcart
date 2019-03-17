@@ -12,9 +12,9 @@ public class BasicShoppingCartService {
 		
 	}
 
-	public List<Product> listProducts(List<Product> list) {
-		
-		return list;
+	public List<Product> listProducts() {
+				
+		return null;
 		
 	}
 
